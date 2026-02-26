@@ -1,0 +1,24 @@
+{
+	"id": "8f80d2a3-4de4-4176-8612-bed089cba022",
+	"createdAt": "2026-02-26T18:54:21.000Z",
+	"createdBy": "admin",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "steamdealfinder_app",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "steamdealfinder_app",
+	"ver": "26.02.26.1857",
+	"package": "e8239152-1b0f-459b-8f13-2b32a48eb34c",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

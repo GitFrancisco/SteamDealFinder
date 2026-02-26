@@ -1,0 +1,81 @@
+{
+	"id": "e8239152-1b0f-459b-8f13-2b32a48eb34c",
+	"createdAt": "2026-02-26T18:53:40.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/GitFrancisco/SteamDealFinder.git",
+		"branch": "master"
+	},
+	"name": "steamdealfinder_interview_exercise",
+	"description": null,
+	"ver": "26.02.26.1900",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "d6b86a76-034e-4522-bd15-189e2a8c4bd5",
+			"application": "steamdealfinder_app",
+			"title": "",
+			"description": "App to look for cheap deals in the Steam Store."
+		}
+	],
+	"api": [
+		{
+			"id": "6a12864f-b305-46a2-a215-cd79641c193c",
+			"name": "CheapSharkAPI",
+			"description": "API to look for PC Videogame Sales",
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"theme_generator": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"i18n": [
+		{
+			"id": "8f80d2a3-4de4-4176-8612-bed089cba022",
+			"name": "steamdealfinder_app",
+			"description": null
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": [],
+	"ui5_control": [],
+	"ai_agent": [],
+	"ai_model": [],
+	"ai_prompt": [],
+	"ai_tool": [],
+	"ai_guardrail": [],
+	"path_rewrite": [],
+	"vault": []
+}

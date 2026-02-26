@@ -1,0 +1,238 @@
+/* target both the component itself AND the internal SAP header classes */
+.customHeader,
+.customHeader .sapMPageHeader,
+.customHeader.sapMBar {
+    background-color: #363636 !important; 
+    background-image: none !important; 
+    border-bottom: none !important; 
+    box-shadow: none !important;
+}
+
+.darkBg{
+    background-color: #292929 !important;
+}
+
+.whiteChar{
+    color: #e0e0e0 !important;
+}
+
+.customFooter {
+    background-color: #292929 !important; 
+    
+    /* remove the default SAPUI5 gradient image */
+    background-image: none !important; 
+    
+    /* remove the default grey border line at the top of the footer */
+    border-top: none !important; 
+}
+
+/* main page title */
+.customPageTitle {
+    font-size: 1.5rem !important; 
+    font-weight: bold !important;
+    color: #00ce7a !important; 
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+}
+
+/* param labels */
+.customParamLabel {
+    color: #e0e0e0 !important; 
+    font-weight: bold !important;
+}
+
+
+/***************SEARCH BUTTON*********************/
+/* target the inner element of the SAPUI5 button */
+.searchButton .sapMBtnInner {
+    background-color: #00ce7c !important;
+    /* remove the default SAPUI5 gradient image */
+    background-image: none !important;
+    /* white text*/
+    color: white !important; 
+    /* round corners*/
+    border-radius: 6px !important;
+    /* removes text shadow*/
+    text-shadow: none !important;
+    /* subtle drop shadow*/
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+    /* smooth fade on hover */
+    transition: background-color 0.2s ease-in-out !important; 
+}
+
+/* make it slightly darker when the user hovers over it */
+.searchButton:hover .sapMBtnInner {
+    background-color: #00ce7cd0 !important; 
+    cursor: pointer !important;
+}
+
+/* ensure the text inside the button stays white even on hover */
+.searchButton .sapMBtnInner .sapMBtnContent {
+    color: white !important; 
+}
+
+/* replaces the default button icon color */
+.searchButton .sapMBtnIcon {
+    color: white !important; 
+}
+/****************TABLE************************/
+
+/* transparent container so it blends with the page */
+.customDarkTable {
+    background-color: transparent !important;
+}
+
+/* table Header Bar */
+.customDarkTable .sapMListTblHeader {
+    background-color: #222222 !important;
+    border-bottom: 2px solid #2e7d32 !important; 
+}
+
+/* text inside the Header */
+.customDarkTable .sapMListTblHeader .sapMText,
+.customDarkTable .sapMListTblHeader .sapMLabel {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* table rows */
+.customDarkTable .sapMLIB {
+    background-color: #363636 !important; 
+    border-bottom: 1px solid #4d4d4d !important; 
+}
+
+/* standard text inside the table */
+.customDarkTable .sapMText {
+    color: #e0e0e0 !important;
+}
+
+/* remove the default white background from the table list wrapper */
+.customDarkTable .sapMListUl {
+    background-color: transparent !important;
+}
+
+.customDarkTable th,
+.customDarkTable .sapMTableTH {
+    background-color: #222222 !important; 
+    border-bottom: 2px solid #2e7d32 !important; 
+}
+
+/* force the text/labels inside those headers to be white so they don't vanish */
+.customDarkTable th .sapMText,
+.customDarkTable th .sapMLabel,
+.customDarkTable .sapMTableTH .sapMText,
+.customDarkTable .sapMTableTH .sapMLabel {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* remove any lingering white background in the main table wrapper */
+.customDarkTable .sapMListTbl {
+    background-color: transparent !important;
+}
+
+/***************Metacritic********************/
+.HBoxMetacritic {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.textBoxMetacritic {
+    flex-grow: 0 !important;
+    width: 30px !important; 
+    height: 30px !important; 
+    margin: 0 5px !important; 
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 4px !important; 
+    
+    text-align: center !important; 
+    line-height: 30px !important;
+    display: inline-block !important; 
+}
+
+.metaGreen{
+    background-color: #00ce7a !important;
+}
+
+.metaYellow{
+    background-color: #ffcc33 !important;
+}
+
+.metaRed{
+    background-color: #ff6666 !important;
+}
+
+.MetacriticIcon {
+    width: 30px !important; /* locks it to a small size */
+    height: auto !important;
+    flex-grow: 0 !important;
+    margin: 0 5px !important;
+}
+/*********************************************/
+
+/* back button on details page*/
+/* replaces the default button icon color */
+.backButton .sapMBtnIcon {
+    color: white !important; 
+    /* remove the default SAPUI5 gradient image */
+    background-image: none !important;
+}
+
+/* styling for the main Game Title on the Detail Page */
+.gameTitleText,
+.gameTitleText .sapMTitle, 
+.gameTitleText .sapMText {
+    color: #ffffff !important; 
+    font-size: 28px !important; 
+    font-weight: 800 !important; 
+    letter-spacing: 0.5px !important; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* sale price */
+.priceSaleText,
+.priceSaleText .sapMText {
+    color: #4caf50 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+/* normal price */
+.priceNormalText,
+.priceNormalText .sapMText {
+    color: #888888 !important;
+    font-size: 16px !important;
+    margin-left: 10px !important; 
+}
+
+/* steam rating & review counts */
+.infoSecondaryText,
+.infoSecondaryText .sapMText {
+    color: #aaaaaa !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+}
+
+/* recommendation */
+.dealRecommendationText,
+.dealRecommendationText .sapMText {
+    color: #ffffff !important; 
+    font-size: 16px !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+}
+
+/* steam review colors */
+.steamOverwhelminglyPositive{color:#8A2BE2 !important} 
+.steamVeryPositive{color:#66C0F4 !important}
+.steamPositive{color:#00E5FF !important}
+.steamMostlyPositive{color:#00CE7A !important}
+.steamMixed{color:#FFCC33 !important}
+.steamMostlyNegative{color:#F39C12 !important}
+.steamNegative{color:#D35400 !important}
+.steamVeryNegative{color:#E74C3C !important}
+.steamOverwhelminglyNegative{color:#FF0000 !important}

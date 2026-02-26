@@ -1,0 +1,1809 @@
+{
+	"id": "d6b86a76-034e-4522-bd15-189e2a8c4bd5",
+	"createdAt": "2026-02-26T18:51:55.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "9920082e-fff7-4a5a-b41e-a45b6a79e2f5",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "styleClass",
+					"grouping": "Properties",
+					"value": "darkBg",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "9d0d6f95-e7c0-47c9-f7b2-f91a332d6edc",
+					"fieldName": "MainPage",
+					"fieldParent": "9920082e-fff7-4a5a-b41e-a45b6a79e2f5",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Steam Deal Finder",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "backgroundDesign",
+							"grouping": "Properties",
+							"value": "Solid",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "enableCompactMode",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "darkBg",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "c82c0154-8328-4960-b55f-75501c7b3f44",
+							"fieldName": "Header",
+							"fieldParent": "9d0d6f95-e7c0-47c9-f7b2-f91a332d6edc",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "customHeader",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "c6265806-4d9e-4376-99ba-755232fa2d1d",
+									"fieldName": "Middle",
+									"fieldParent": "c82c0154-8328-4960-b55f-75501c7b3f44",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3dae1bed-d9fc-4dcc-a5fd-99e1df593144",
+											"fieldName": "Label_PageTitle",
+											"fieldParent": "c6265806-4d9e-4376-99ba-755232fa2d1d",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Steam Deal Finder",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customPageTitle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "97e672b3-66fe-4225-b706-8210bf54b8e5",
+							"fieldName": "HBox_Params",
+							"fieldParent": "9d0d6f95-e7c0-47c9-f7b2-f91a332d6edc",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "End",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignContent",
+									"grouping": "Properties",
+									"value": "Start",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "gap",
+									"grouping": "Properties",
+									"value": "1%",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "445cabad-b7f5-4f8c-dfda-669e69c64621",
+									"fieldName": "GameTitle",
+									"fieldParent": "97e672b3-66fe-4225-b706-8210bf54b8e5",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "direction",
+											"grouping": "Properties",
+											"value": "Column",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "68dc2669-60f5-41d8-dfbc-0dad8833c366",
+											"fieldName": "Label_GameTitle",
+											"fieldParent": "445cabad-b7f5-4f8c-dfda-669e69c64621",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Game Title",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "textAlign",
+													"grouping": "Properties",
+													"value": "Begin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customParamLabel",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "e75af2e1-f3f8-4770-db71-037d8d1b7b02",
+											"fieldName": "Input_GameTitle",
+											"fieldParent": "445cabad-b7f5-4f8c-dfda-669e69c64621",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customDarkInput responsiveGameTitle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "aec7f45e-097e-4fd2-acc1-396cce7befab",
+									"fieldName": "MinPrice",
+									"fieldParent": "97e672b3-66fe-4225-b706-8210bf54b8e5",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "15%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "719e34d4-462f-4b4d-fc26-3aab33bf57c0",
+											"fieldName": "Label_MinPrice",
+											"fieldParent": "aec7f45e-097e-4fd2-acc1-396cce7befab",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Minimum Price (€)",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customParamLabel",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "619346ed-b5c8-4b69-c2f6-6a6627b915bc",
+											"fieldName": "StepInput_MinPrice",
+											"fieldParent": "aec7f45e-097e-4fd2-acc1-396cce7befab",
+											"fieldType": "sap.m.StepInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "min",
+													"grouping": "Properties",
+													"value": "0",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "fd61eade-b4ab-47dd-c6dd-cb6c45168e4a",
+									"fieldName": "MaxPrice",
+									"fieldParent": "97e672b3-66fe-4225-b706-8210bf54b8e5",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "15%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignContent",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "8404847d-279f-4370-a2db-23fbe66a3775",
+											"fieldName": "Label_MaxPrice",
+											"fieldParent": "fd61eade-b4ab-47dd-c6dd-cb6c45168e4a",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Maximum Price (€)",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customParamLabel",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "d7bb4687-9bee-4b58-d463-d606ce2858ef",
+											"fieldName": "StepInput_MaxPrice",
+											"fieldParent": "fd61eade-b4ab-47dd-c6dd-cb6c45168e4a",
+											"fieldType": "sap.m.StepInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "min",
+													"grouping": "Properties",
+													"value": "0",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "max",
+													"grouping": "Properties",
+													"value": "999",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "value",
+													"grouping": "Properties",
+													"value": "0",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "35145107-2bdc-4238-9116-e617840461c3",
+									"fieldName": "NumberOfDeals",
+									"fieldParent": "97e672b3-66fe-4225-b706-8210bf54b8e5",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "20%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "42c891e3-7fe5-49e0-a028-925afc63537a",
+											"fieldName": "Label_NumberOfDeals",
+											"fieldParent": "35145107-2bdc-4238-9116-e617840461c3",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Number Of Deals",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customParamLabel",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "4d324c38-f44d-4281-c5fd-42684b1d219c",
+											"fieldName": "StepInput_NumberOfDeals",
+											"fieldParent": "35145107-2bdc-4238-9116-e617840461c3",
+											"fieldType": "sap.m.StepInput",
+											"script": "",
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "min",
+													"grouping": "Properties",
+													"value": "1",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "max",
+													"grouping": "Properties",
+													"value": "60",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "value",
+													"grouping": "Properties",
+													"value": "60",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customDarkInput responsiveParam",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "073c5d2a-e7a1-4a6b-c565-05ceae99579c",
+									"fieldName": "AAA",
+									"fieldParent": "97e672b3-66fe-4225-b706-8210bf54b8e5",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "bc899cbf-2e90-46bb-c3aa-200bc60a6726",
+											"fieldName": "Label_AAA",
+											"fieldParent": "073c5d2a-e7a1-4a6b-c565-05ceae99579c",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "AAA?",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customParamLabel",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "038b58ba-cb58-49b5-d6f4-435ec1d10e3a",
+											"fieldName": "CheckBox_AAA",
+											"fieldParent": "073c5d2a-e7a1-4a6b-c565-05ceae99579c",
+											"fieldType": "sap.m.CheckBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "customDarkCheckbox",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "b3fe9c4b-80bc-4418-810f-f7aaa52eaae4",
+							"fieldName": "VBox_DealList",
+							"fieldParent": "9d0d6f95-e7c0-47c9-f7b2-f91a332d6edc",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+									"fieldName": "Table",
+									"fieldParent": "b3fe9c4b-80bc-4418-810f-f7aaa52eaae4",
+									"fieldType": "sap.m.Table",
+									"script": "",
+									"bindingValue": "CheapSharkApi>Deals",
+									"bindingType": "h",
+									"bindingSource": "API",
+									"bindingParentID": "acdb296e-f454-4f5e-8b09-d451db1abbc5",
+									"bindingPathID": "b53fde9c-ee55-4647-b9f5-d43f4c2f6918",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "customDarkTable",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "4e2ac707-cc98-4a0d-b613-58419f564a47",
+											"fieldName": "colTableImage",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "minScreenWidth",
+													"grouping": "Properties",
+													"value": "Large",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "65337964-20f6-4b80-ef03-485b3e669214",
+													"fieldName": "colHTableImage",
+													"fieldParent": "4e2ac707-cc98-4a0d-b613-58419f564a47",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Image",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "1dcc174c-1606-4d6c-b36a-1aea8401798c",
+											"fieldName": "colTabletitle",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "37349ec8-fa9c-4a79-f16f-8385111aa545",
+													"fieldName": "colHTabletitle",
+													"fieldParent": "1dcc174c-1606-4d6c-b36a-1aea8401798c",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Title",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "100%",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "86716c3c-0557-4437-f1c8-b7cb11b60d1b",
+											"fieldName": "colTablesalePrice",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "d6bb59d1-c9a6-45d1-baa8-e025c90c78f7",
+													"fieldName": "colHTablesalePrice",
+													"fieldParent": "86716c3c-0557-4437-f1c8-b7cb11b60d1b",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Current Price",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "dfba84e2-9b8e-4e01-8adc-12fe7598c0cc",
+											"fieldName": "colTablenormalPrice",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "08a6028d-b7f0-4613-a795-83e058e25671",
+													"fieldName": "colHTablenormalPrice",
+													"fieldParent": "dfba84e2-9b8e-4e01-8adc-12fe7598c0cc",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Normal Price",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "86614bf2-7f01-44c4-ead5-526f9b1599ab",
+											"fieldName": "colTableisOnSale",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "da45b7ad-804f-4a0a-86ca-041c65620c54",
+													"fieldName": "colHTableisOnSale",
+													"fieldParent": "86614bf2-7f01-44c4-ead5-526f9b1599ab",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Is it on Sale?",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "257ddda3-a8ca-49b6-9746-8633f13f93ed",
+											"fieldName": "colTableCheckDeal",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "30%",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "de8bdb07-848f-434d-a337-6d4e99a66022",
+													"fieldName": "colHTableCheckDeal",
+													"fieldParent": "257ddda3-a8ca-49b6-9746-8633f13f93ed",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+											"fieldName": "colItemTable",
+											"fieldParent": "e49048e6-b20d-46b2-d3a5-87d589e2139d",
+											"fieldType": "sap.m.ColumnListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.ColumnListItem/colItemTable/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Active",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "eda259d9-b22f-447f-d452-a0663c0bb967",
+													"fieldName": "Image",
+													"fieldParent": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "{thumb}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "08a225ff-8042-41a1-8ed9-32d1c24c0d80",
+													"fieldName": "txtTabletitle",
+													"fieldParent": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{title}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "100%",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ceaeaefa-9461-4181-c387-68988c9d2ece",
+													"fieldName": "txtTablesalePrice",
+													"fieldParent": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{salePrice}€",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "045f631a-86ea-404b-8dbd-df4aebb31680",
+													"fieldName": "txtTablenormalPrice",
+													"fieldParent": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{normalPrice}€",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "c951bbc6-982f-4916-ffa7-86cf2cf4787b",
+													"fieldName": "txtTableisOnSale",
+													"fieldParent": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{= ${isOnSale} === '1' ? 'Yes' : 'No' }",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "efd1b139-ddfb-49ea-c85e-99bb38898821",
+													"fieldName": "Button_checkDeal",
+													"fieldParent": "891c7722-09c8-4611-9e8b-8af02e0390e6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/Button_checkDeal/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://navigation-right-arrow",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "10%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enableCompactMode",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "6e3d384c-4847-41e4-9411-9c3c69825598",
+							"fieldName": "oBarFooter",
+							"fieldParent": "9d0d6f95-e7c0-47c9-f7b2-f91a332d6edc",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "customFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "c7111229-374b-4de5-a335-fce1edcb9f51",
+									"fieldName": "Middle",
+									"fieldParent": "6e3d384c-4847-41e4-9411-9c3c69825598",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "62356262-0cb6-4f48-f320-0b19ee65eaee",
+											"fieldName": "Button_Search",
+											"fieldParent": "c7111229-374b-4de5-a335-fce1edcb9f51",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button_Search/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Search!",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://search",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "searchButton",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "5e796377-9cc6-4945-bb69-404f0f71b061",
+					"fieldName": "DetailPage",
+					"fieldParent": "9920082e-fff7-4a5a-b41e-a45b6a79e2f5",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "navButtonPress",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.Page/DetailPage/navButtonPress.js",
+							"language": "javascript",
+							"translation": []
+						},
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Deal Detail",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "8ae4166b-d5d0-4a24-b32f-8b20b49d4300",
+							"fieldName": "Header_Details",
+							"fieldParent": "5e796377-9cc6-4945-bb69-404f0f71b061",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "customHeader",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "a7db937d-e02b-4d49-f696-f88d49202929",
+									"fieldName": "Left_Details",
+									"fieldParent": "8ae4166b-d5d0-4a24-b32f-8b20b49d4300",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "11197a07-7279-4f2c-86de-1d5ef3af1dbd",
+											"fieldName": "Button_Back",
+											"fieldParent": "a7db937d-e02b-4d49-f696-f88d49202929",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "App.back();",
+													"script": "App.back();",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://navigation-left-arrow",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "backButton",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "30e4ea8e-0b54-4824-a4d3-999c581ccb7e",
+									"fieldName": "Middle_Details",
+									"fieldParent": "8ae4166b-d5d0-4a24-b32f-8b20b49d4300",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "4c066cda-09df-4f81-d0a4-0af55ea8757b",
+											"fieldName": "Label_PageTitleDetails",
+											"fieldParent": "30e4ea8e-0b54-4824-a4d3-999c581ccb7e",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "whiteChar",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+							"fieldName": "VBox",
+							"fieldParent": "5e796377-9cc6-4945-bb69-404f0f71b061",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "darkBg",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "2144a907-5877-47f0-f478-8bda88ef112e",
+									"fieldName": "HBox_GameTitle",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "columnGap",
+											"grouping": "Properties",
+											"value": "2%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f5436715-8bfc-48b8-9b79-a04294f4f673",
+											"fieldName": "Label_DealGameTitle",
+											"fieldParent": "2144a907-5877-47f0-f478-8bda88ef112e",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{DealDetail>/title}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "textAlign",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "gameTitleText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "9848fa7a-8c44-416d-f0f6-9064b78f4c83",
+											"fieldName": "SteamIcon",
+											"fieldParent": "2144a907-5877-47f0-f478-8bda88ef112e",
+											"fieldType": "sap.m.Image",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Image/SteamIcon/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "https://www.cheapshark.com/img/stores/icons/0.png",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "3ceb0ba0-ac82-48c0-826d-91d1da328814",
+									"fieldName": "Image_GameThumbnail",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "{DealDetail>/thumb}",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "6d34c88e-6c82-4208-9797-a03b88be729f",
+									"fieldName": "HBox_Pricing",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "columnGap",
+											"grouping": "Properties",
+											"value": "10%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6d406f8d-0dc5-4419-f96a-bbfa8a9dd711",
+											"fieldName": "Label_CurrentPrice",
+											"fieldParent": "6d34c88e-6c82-4208-9797-a03b88be729f",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Current Price: {DealDetail>/salePrice}€",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "priceSaleText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "4efe51bc-e574-410f-d239-7d4de1035a77",
+											"fieldName": "Label_NormalPrice",
+											"fieldParent": "6d34c88e-6c82-4208-9797-a03b88be729f",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Normal Price: {DealDetail>/normalPrice}€",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "priceNormalText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "9e98e157-4ea8-4cca-ccd3-e7a8b9aef2f4",
+									"fieldName": "Label_SalePercent",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "91922adf-e2b1-4f58-b48f-cc4ad023cca7",
+									"fieldName": "Label_SteamRatingText",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Steam Rating",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "infoSecondaryText",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ddd63d2e-47a4-498b-9054-9ac41c969e79",
+									"fieldName": "Label_SteamRating",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "{DealDetail>/steamRatingText}, {DealDetail>/steamRatingPercent}% are positive reviews! ({DealDetail>/steamRatingCount} total reviews)",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "infoSecondaryText",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "55d5bab9-b4c1-4530-bc7e-d95fec9f0c5b",
+									"fieldName": "HBox_Metascore",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "HBoxMetacritic",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3dadbf9b-dd9f-41e5-c0ad-c23ad55bd4fe",
+											"fieldName": "MetacriticIcon",
+											"fieldParent": "55d5bab9-b4c1-4530-bc7e-d95fec9f0c5b",
+											"fieldType": "sap.m.Image",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Image/MetacriticIcon/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "/media/root/deal-finder/Metacritic_M.png",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "1%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "MetacriticIcon",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "907e5a36-a4db-4a27-9c1a-0ac3c4a1bb9b",
+											"fieldName": "Label_MetacriticRating",
+											"fieldParent": "55d5bab9-b4c1-4530-bc7e-d95fec9f0c5b",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{DealDetail>/metacriticScore}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "textAlign",
+													"grouping": "Properties",
+													"value": "Center",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "30px",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "textBoxMetacritic",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "86d64cf1-2740-410d-cc4b-9d67841a9b30",
+									"fieldName": "Label_DealRating",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "This deal is rated at a {DealDetail>/dealRating}/10.0",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "dealRecommendationText",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "67d64ec5-33b6-4acf-c2c4-f9627dc6399e",
+									"fieldName": "Label_IsItWorth",
+									"fieldParent": "507bacab-e9b7-4f69-d9f1-c3d43922d4c3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "dealRecommendationText",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "4748d3fb-8f3a-4bb8-e5bd-45855aee3fee",
+					"fieldName": "endpointDeals",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "6a12864f-b305-46a2-a215-cd79641c193c",
+					"restOperation": "2807330e-1c30-4329-edb6-13d2e9196b8e",
+					"request": [
+						{
+							"name": "sortBy",
+							"value": "Price",
+							"parent": "RequestParameterb23d4429-4fcf-4b6a-ae60-a12ac584871e",
+							"expression": ""
+						}
+					],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "b53fde9c-ee55-4647-b9f5-d43f4c2f6918",
+							"modelFieldNo": "e49048e6-b20d-46b2-d3a5-87d589e2139d"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "26.02.26.1857",
+	"application": "steamdealfinder_app",
+	"title": "",
+	"description": "App to look for cheap deals in the Steam Store.",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_integration": false,
+	"ui5_chart": false,
+	"ui5_theme": "",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file:///compiledCss.css",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "e8239152-1b0f-459b-8f13-2b32a48eb34c",
+	"apis": [
+		{
+			"id": "6a12864f-b305-46a2-a215-cd79641c193c",
+			"name": "CheapSharkAPI",
+			"ver": "26.02.26.1854"
+		}
+	],
+	"i18n": []
+}
